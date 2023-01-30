@@ -15,6 +15,7 @@ public class BaseFile
 	protected WebDriver driver;
 	public void launchbrowser() throws IOException
 	{
+		
 	  System.setProperty("webdriver.chrome.driver","D:\\20th_evening\\Selenium\\chromedriver_win32\\chromedriver.exe");
 	  driver=new ChromeDriver();
 	  
@@ -22,6 +23,7 @@ public class BaseFile
 	  driver.get(Utility.readDataFromPropertyFile("url"));
 	  Reporter.log("Launching browser", true);
 	  Utility.implicitWait(1000, driver);
+	  
 	}
 
 }
