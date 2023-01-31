@@ -12,6 +12,7 @@ public class NeoStoxHomePage
 
 	public NeoStoxHomePage(WebDriver driver) 
 	{
+		
 		PageFactory.initElements(driver, this);
 	}
 	
