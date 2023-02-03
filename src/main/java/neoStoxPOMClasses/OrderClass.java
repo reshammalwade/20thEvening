@@ -20,5 +20,10 @@ public class OrderClass
 	    signInButton.click();
 	    Reporter.log("Clicking on SignIn Button", true);
 	}
+	public void ClickOnSignInButton1()
+	{
+	    signInButton.click();
+	    Reporter.log("Clicking on SignIn Button", true);
+	}
 
 }
