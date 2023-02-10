@@ -44,12 +44,12 @@ public class ValidateNeoStox1UserNameExcelMVN extends BaseClass
 		home.ClickOnSignInButton();
 		Utility.implicitWait(1000, driver);
 		
-		mobile.insertMobileNo(Utility.readDataFromExcel(3, 1));
+		mobile.insertMobileNo(Utility.readDataFromExcel(0, 0));
 		Thread.sleep(1000);
 		mobile.clickOnSignIn();
 		
 		Utility.implicitWait(1000, driver);
-		pass.enterPassword(Utility.readDataFromExcel(6, 3));
+		pass.enterPassword(Utility.readDataFromExcel(0, 1));
 		pass.clickOnSubmit();
 		
 		Utility.implicitWait(1000, driver);
@@ -59,7 +59,7 @@ public class ValidateNeoStox1UserNameExcelMVN extends BaseClass
     @Test
     public void validateUserName() throws EncryptedDocumentException, IOException 
     {
-    	Assert.assertEquals(dash.getActualUserName(), Utility.readDataFromExcel(12, 5));
+    	Assert.assertEquals(dash.getActualUserName(), Utility.readDataFromExcel(0, 2));
     	Utility.takeScreenshot(driver, s);
 	  
     }
