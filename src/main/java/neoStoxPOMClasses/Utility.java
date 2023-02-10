@@ -44,8 +44,8 @@ public class Utility
 	}
 	public static String readDataFromExcel(int row,int cell) throws EncryptedDocumentException, IOException
 	{
-		File myFile= new File("D:\\20th_evening\\Excelwork.xlsx");
-		Sheet mySheet = WorkbookFactory.create(myFile).getSheet("Sheet3");
+		File myFile= new File("D:\\20th_evening\\Countries.xlsx");
+		Sheet mySheet = WorkbookFactory.create(myFile).getSheet("Sheet1");
 		String value=mySheet.getRow(row).getCell(cell).getStringCellValue();
 		Reporter.log("Read data from excel is: row: "+row+", cell is: "+cell, true);
 		Reporter.log("Data is: "+value, true);
