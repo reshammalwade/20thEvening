@@ -65,7 +65,7 @@
       <![CDATA[Taking ScreenShot]]>
     </line>
     <line>
-      <![CDATA[ScreenShot Taken and saved at: D:\20th_evening\Screensht\TCID_0025Nv.png]]>
+      <![CDATA[ScreenShot Taken and saved at: D:\20th_evening\Screensht\TCID_002LXm.png]]>
     </line>
     <line>
       <![CDATA[Logging out from neostox]]>
@@ -74,18 +74,18 @@
       <![CDATA[Cloasing application]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-10T23:37:26 IST" name="Suite" finished-at="2023-02-10T23:38:07 IST" duration-ms="40818">
+  <suite started-at="2023-02-10T23:48:22 IST" name="Suite" finished-at="2023-02-10T23:48:59 IST" duration-ms="36854">
     <groups>
     </groups>
-    <test started-at="2023-02-10T23:37:26 IST" name="Test" finished-at="2023-02-10T23:38:07 IST" duration-ms="40818">
+    <test started-at="2023-02-10T23:48:22 IST" name="Test" finished-at="2023-02-10T23:48:59 IST" duration-ms="36854">
       <class name="neoStoxTestClassesMVN.demo">
-        <test-method signature="loginTest()[pri:0, instance:neoStoxTestClassesMVN.demo@45099dd3]" started-at="2023-02-10T23:37:26 IST" name="loginTest" finished-at="2023-02-10T23:37:39 IST" duration-ms="13268" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:neoStoxTestClassesMVN.demo@45099dd3]" started-at="2023-02-10T23:48:22 IST" name="loginTest" finished-at="2023-02-10T23:48:33 IST" duration-ms="11217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- neoStoxTestClassesMVN.demo -->
       <class name="neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN">
-        <test-method is-config="true" signature="launchNeostoxApp()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:37:39 IST" name="launchNeostoxApp" finished-at="2023-02-10T23:37:44 IST" duration-ms="5387" status="PASS">
+        <test-method is-config="true" signature="launchNeostoxApp()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:48:33 IST" name="launchNeostoxApp" finished-at="2023-02-10T23:48:38 IST" duration-ms="5205" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching browser]]>
@@ -95,7 +95,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchNeostoxApp -->
-        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:37:44 IST" name="loginToNeoStox" finished-at="2023-02-10T23:38:01 IST" duration-ms="16643" status="PASS">
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:48:38 IST" name="loginToNeoStox" finished-at="2023-02-10T23:48:53 IST" duration-ms="14297" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on SignIn Button]]>
@@ -141,7 +141,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginToNeoStox -->
-        <test-method signature="validateUserName()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:38:01 IST" name="validateUserName" finished-at="2023-02-10T23:38:02 IST" duration-ms="432" status="PASS">
+        <test-method signature="validateUserName()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:48:53 IST" name="validateUserName" finished-at="2023-02-10T23:48:53 IST" duration-ms="415" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Getting actual user name]]>
@@ -159,18 +159,18 @@
               <![CDATA[Taking ScreenShot]]>
             </line>
             <line>
-              <![CDATA[ScreenShot Taken and saved at: D:\20th_evening\Screensht\TCID_0025Nv.png]]>
+              <![CDATA[ScreenShot Taken and saved at: D:\20th_evening\Screensht\TCID_002LXm.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateUserName -->
-        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:38:02 IST" name="logOutFromNeoStox" finished-at="2023-02-10T23:38:04 IST" duration-ms="2855" status="PASS">
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:48:53 IST" name="logOutFromNeoStox" finished-at="2023-02-10T23:48:56 IST" duration-ms="2895" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logging out from neostox]]>
             </line>
           </reporter-output>
         </test-method> <!-- logOutFromNeoStox -->
-        <test-method is-config="true" signature="closeNeoStoxApp()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:38:04 IST" name="closeNeoStoxApp" finished-at="2023-02-10T23:38:07 IST" duration-ms="2149" status="PASS">
+        <test-method is-config="true" signature="closeNeoStoxApp()[pri:0, instance:neoStoxTestClassesMVN.ValidateNeoStox1UserNameExcelMVN@4b013c76]" started-at="2023-02-10T23:48:56 IST" name="closeNeoStoxApp" finished-at="2023-02-10T23:48:59 IST" duration-ms="2745" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Cloasing application]]>
